@@ -24,7 +24,31 @@ Answer: Branches allow you to work on the project in a contained area, thus mean
 
 Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
-Answer:  
+Answer:  Pull requests communicate changes to a branch in a repository. Once a pull request is opened, you can review changes with collaborators and add follow-up commits. Once you've committed changes to your local copy of the repository, click the Create Pull Request icon. Check that the local branch and repository you're merging from, and the remote branch and repository you're merging into, are correct. Then give the pull request a title and a description. Click Create.
+
 Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+
+Answer: Forking is basically creating a copy of your own that shares the code and settings of your original repository, allowing you to edit it without affecting the original file, the diiference between forking and cloning is that cloning creates a local copy of your repo while forking makes a remote copy. The Forking Workflow helps a maintainer of a project open up the repository to contributions from any developer.
+
 Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
+
+Answer: Issues allow you to keep track of your work in Github, Projects boards on GitHub help you organize and prioritize your work using the Scrum framework for project management. The benefit from project boards is that you can link your repositories. This way all issues that are related to different projects can be organized in a unique project board.
+
 Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration.
+
+Common Challenges:  Merge conflicts
+                    Naming conventions
+                    Conflict resolution
+                    Access control
+                    Training
+                    
+Best Practices: Write good commit messages
+                Commit often
+                Branches
+                Review code
+                Use branches wisely
+                Review before committing
+
+Implement clear naming: A consistent naming convention for documents avoids confusion and errors. Use meaningful names with version numbers and avoid vague terms to keep track of changes efficiently.
+Train your team: Ensure everyone is up to speed with version control tools and practices. Regular training sessions can improve collaboration and prevent mishaps in document management processes.
+
